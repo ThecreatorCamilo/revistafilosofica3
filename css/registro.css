@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Bree+Serif&family=Lato:wght@300&family=Lexend+Deca&family=Merriweather&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+
+body{
+    background-image: url("../html/fondo_oscuro.jpg");
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+#planeta{
+    height: 150px;
+    width: 200px;
+    margin-top: -25px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.formulario_de_registro{
+    width: 700px;
+    background: #3b83bd;
+    padding:35px;
+    margin:auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 35px;
+    font-family: 'Bangers', cursive;
+    font-family: 'Bree Serif', serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Merriweather', serif;
+    box-shadow: 7px 13px 37px #000;
+}
+.formulario_de_registro h3{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.Controls{
+    width:100%;
+    padding: 15px;
+    border-radius: 4px;
+    margin-bottom: 18px;
+    border: 1px solid; 
+    font-size: 16px;
+}
+
+.formulario_de_registro label{
+    margin-bottom: 20px;
+}
+
+.nombres{
+    font-size: 19px;
+}
+
+.formulario_de_registro p{
+    height:40px;
+    text-align: center;
+    font-size: 18px;
+}
+
+#terminos{
+    text-decoration: none;
+    color:black;
+}
+
+#terminos:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+.btn{
+    width: 100%;
+    background: white;
+    border: none;
+    padding:12px;
+    color:black;
+    margin: 10px 0;
+    border-radius: 35px;
+    font-size: 16px;
+}
+
+.formulario_de_registro a{
+    text-decoration: none;
+    color:black;
+}
+
+
+

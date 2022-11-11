@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de registro</title>
+    <link rel="stylesheet" type="text/css" href="../css/registro.css">
+</head>
+<body>
+    <form class="formulario_de_registro">
+        <p><img src="makemake_logo.png" alt="makemake" id="planeta" align="right">
+        <h3>Formulario de Registro</h3>
+        <label class="nombres" for="primernombre">Ingrese su primer nombre:</label><br><br>
+        <input class="Controls" type="text" id="primernombre" name="primernombre" placeholder="Porfavor ingrese su primer nombre" maxlength="20" minlength="1" required><br>
+        <label class="nombres" for="segundonombre">Ingrese su segundo nombre:</label><br><br>
+        <input class="Controls" type="text" id="segundonombre" name="segundonombre" placeholder="Porfavor ingrese su segundo nombre" maxlength="20" minlength="3" required><br>
+        <label class="nombres" for="primerapellido">Ingrese su primer apellido:</label><br><br>
+        <input class="Controls" type="text" id="primerapellido" name="primerapellido" placeholder="Porfavor ingrese su primer apellido" maxlength="20" minlength="4" required><br>
+        <label class="nombres" for="segundoapellido">Ingrese su segundo apellido:</label><br><br>
+        <input class="Controls" type="text" id="segundoapellido" name="segundoapellido" placeholder="Porfavor ingrese su segundo apellido" maxlength="20" minlength="4" required><br>
+        <label class="nombres" for="Fecha">Ingrese su fecha de nacimiento:</label><br><br>
+        <input class="Controls" type="date" id="FechNac" required/><br>
+        <label class="nombres" for="correoelectronico">Correo Electronico:</label><br><br>
+        <input class="Controls" type="email" id="correoelectronico" name="correoelectronico" placeholder="Porfavor ingrese su correo electronico"  required><br>
+        <label class="nombres" for="correoelectronico">Contraseña:</label><br><br>
+        <input class="Controls" type="password" id="contraseña" name="contraseña" placeholder="Porfavor ingrese una contraseña" maxlength="20" minlength="6"  required><br>
+        <p><input type="checkbox" id="btn_submit" required> Acepto los: <a href="terminos_condiciones.html" id="terminos">términos y condiciones</a></p>
+        <input class="btn" type="submit" value="Enviar registro"><br><br>
+        <p>¿Ya tienes una cuenta?</p>
+        <button class="btn"><a href="iniciar_sesion.html">Iniciar sesión</a></button><br><br>
+        <p>Regresar al inicio</p>
+        <button class="btn"><a href="../index.html">Inicio</a></button>
+    </form>
+</body>
+</html>

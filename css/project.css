@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Bree+Serif&family=Lato:wght@300&family=Lexend+Deca&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+header{
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10 px;
+    margin-left: 10px;
+    background-color: #75E6FF;
+    height: 170px;
+}
+#planeta{
+    height: 150px;
+    width: 200px;
+    float : left;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left:10px;
+}
+
+#titulo{
+    margin-right: 20px;
+    text-align: right;
+    font-family: 'Bree Serif', serif;
+}
+
+button{
+    margin-top: 30px;
+}
+/*boton*/
+.btn{
+    float:right;
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left:40px;
+    padding-right:40px;
+    background-color:#FFFFFF;
+    border-color: black;
+    border-width: 1.5px;
+    border-style: solid;
+    border-radius:35px;
+}
+a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    color:black;
+}
+
+a:hover{
+    color:red;
+}
+
+/*boton*/
+
+#uploader img{
+    margin-right: 15px;
+    margin-left: 50px;
+    height: 250px;
+    width: 250px;
+    float:left;
+}
+.seccion{
+    background-color: #C4C6C4;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+#paragraph{
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 40px;
+}
+#parraf{
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Bree Serif', serif;
+    font-family: 'Lato', sans-serif;
+    text-align: justify;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+#free{
+    font-weight: bold;
+    font-size: 40px;
+    text-align:left;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+#gratis img{
+    margin-top:50px;
+    margin-right: 20px;
+    margin-left: 20px;
+    height: 250px;
+    width: 350px;
+    float:right;
+}
+#escrito{
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Bree Serif', serif;
+    font-family: 'Lato', sans-serif;
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#comienza{
+    font-weight: bold;
+    font-family: 'Bangers', cursive;
+    font-family: 'Bree Serif', serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 30px;
+    text-align:left;
+    margin-left: 20px;
+    margin-right:20px;
+}
+
+#comienzo img{
+    height: 100px;
+    width: 150px;
+    margin-right: 20px;
+    float:right;
+}
+
+.pie{
+    background-color: #000000;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#derech_aut{
+    margin-top: 20px;
+    margin-left: 20px;
+    height:100px;
+}
+
+.pie_de_pagina{
+    color:white;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 25px;
+    list-style:none;
+}
+
+#gmail{
+    width: 200px;
+    height: 100px;
+}
+
+@media (max-width: 900px) {
+    button{
+        flex-direction: column;
+    }
+    header{
+        height:480px;
+    }
+    #uploader img{
+        height:200px;
+        width:200px;
+    }
+    #paragraph{
+        font-weight:normal;
+        font-size: 30px;
+        margin-left: 20px;
+    }
+    #parraf{
+        margin-left: 20px;
+        font-weight:normal;
+        font-size: 30px;
+    }
+    #free{
+        font-weight:normal;
+        font-size: 30px;
+    }
+    #escrito{
+        margin-left: 20px;
+        font-weight:normal;
+    }
+    #gratis img{
+        height:150px;
+        width:200px;
+    }
+    #comienza{
+        font-size: 30px;
+    }
+}
+#registro{
+    margin-left:20px;
+    font-weight: normal;
+    font-size: 30px;
+}

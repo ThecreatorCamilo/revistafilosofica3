@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#planeta{
+    height: 150px;
+    width: 200px;
+    float : left;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+#acerca_de_titulo{
+    margin-right: 20px;
+    text-align: right;
+    font-family: 'Bree Serif', serif;
+}
+
+header{
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10 px;
+    margin-left: 10px;
+    background-color: #75E6FF;
+    height: 250px;
+}
+
+/*menu*/
+.menu{
+    font-size: 30px;
+}
+.navegacion{
+    margin:30px auto;
+    background:#A4C7D6;
+    margin-top: 20px;
+    font-weight: bolder;
+    border-radius: 35px;
+}
+.navegacion ul{
+    list-style:none;
+}
+.menu > li{
+    display:inline-block;
+}
+.menu > li >a{
+    display: block;
+    padding: 15px 20px;
+    color: #353535;
+    font-family: 'Open sans';
+    text-decoration: none;
+}
+#registro{
+    margin-left:20px;
+    font-weight: normal;
+    font-size: 30px;
+}
+#frase{
+    text-align: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    margin-right: 20px;
+}
+.seccion{
+    background-color: #C4C6C4;
+    margin-top:20px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+#logo_word{
+    width: 145px;
+    height: 145px;
+    margin-top: 20px;
+    border: 2px solid;
+    border-color: black;
+}
+#logo_png{
+    margin-top:20px;
+    width: 145px;
+    height: 145px;
+    border: 2px solid;
+    border-color: black;
+}
+#logo_excel{
+    margin-top:20px;
+    width: 145px;
+    height: 145px;
+    border: 2px solid;
+    border-color: black;
+}
+
+@media (max-width:1100px){
+    .navegacion{
+        flex-direction:column-reverse;
+    }
+    header{
+        height:580px;
+    }
+}
+
+.inicios{
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 25px;
+    text-align: justify;
+}
+
+.inicios h5{
+    font-size: 13px;
+    text-decoration: none;
+    color:black;
+}
+
+.inicios h5:hover{
+    font-size: 13px;
+    color:white;
+}
+
+#registro{
+    margin-top: 10px;
+    margin-left:20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.pie{
+    background-color: #000000;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#derech_aut{
+    margin-top: 20px;
+    margin-left: 20px;
+    height:100px;
+}
+
+.pie_de_pagina{
+    color:white;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 25px;
+    list-style:none;
+}
+
+#gmail{
+    width: 200px;
+    height: 100px;
+}
